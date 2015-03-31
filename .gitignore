@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SampleSortableChildCollectionForm/bin
+/packages
+/SampleSortableChildCollectionForm/obj
+/SampleSortableChildCollectionForm/SampleSortableChildCollectionForm.csproj.GhostDoc.xml
+/SampleSortableChildCollectionForm/SampleSortableChildCollectionForm.csproj.user
+/SampleSortableChildCollectionForm.v12.suo
