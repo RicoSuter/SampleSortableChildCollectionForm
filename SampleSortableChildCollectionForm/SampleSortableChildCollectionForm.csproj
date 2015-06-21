@@ -100,11 +100,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
     </Reference>
-    <Reference Include="MyToolkit">
-      <HintPath>..\packages\MyToolkit.2.3.29.0\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll</HintPath>
+    <Reference Include="MyToolkit, Version=2.3.31.0, Culture=neutral, PublicKeyToken=3e349a1360994d26, processorArchitecture=MSIL">
+      <HintPath>..\packages\MyToolkit.2.3.31.0\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MyToolkit.AspNetMvc">
-      <HintPath>..\packages\MyToolkit.AspNet.Mvc.2.3.29.0\lib\net45\MyToolkit.AspNetMvc.dll</HintPath>
+    <Reference Include="MyToolkit.AspNetMvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MyToolkit.AspNet.Mvc.2.3.31.0\lib\net45\MyToolkit.AspNetMvc.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -273,7 +275,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
